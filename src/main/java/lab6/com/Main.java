@@ -7,7 +7,7 @@ public class Main {
         // print current date and time
         System.out.println(java.time.LocalDateTime.now());
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your name");
+        System.out.println("Enter your name and last name");
         String name = scanner.nextLine();
         //enter age
         System.out.println("Enter your age");
@@ -15,8 +15,7 @@ public class Main {
         System.out.print("Enter your height in meters (e.g., 1.75): ");
         double height = scanner.nextDouble();
         //print height
-        System.out.println("Your height is " + height + " meters.");
-        System.out.println("Hello " + name + " you are " + age + " years old.");
+        System.out.println("Welcome, " + name +  "! You're " + age + " years old and " + height + "m tall. Have a fantastic day!");
         scanner.close();
     }
 }
